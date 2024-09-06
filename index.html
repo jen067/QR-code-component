@@ -14,7 +14,7 @@
 
     <title>Frontend Mentor | QR code component</title>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,25 +24,31 @@
     />
   </head>
   <body>
-    <div class="wrap">
-      <div class="container">
-        <div class="pic-container">
-          <img src="images\image-qr-code.png" alt="qr-code.png" />
+    <main>
+      <div class="qr-card">
+        <div class="qr-card_img-content">
+          <img
+            class="qr-card_img"
+            src="images/image-qr-code.png"
+            alt="qr code"
+          />
         </div>
-        <div class="text-container">
-          <h3>Improve your front-end skills by building projects</h3>
-          <p>
+        <div class="qr-card_text-content">
+          <h2 class="qr-card_title">
+            Improve your front-end skills by building projects
+          </h2>
+          <p class="qr-card_paragraph">
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
         </div>
       </div>
-    </div>
-    <!-- <div class="attribution">
+    </main>
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+    </div>
   </body>
 </html>
