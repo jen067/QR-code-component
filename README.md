@@ -3,7 +3,6 @@
 ### Screenshot
 
 ![Desktop-Design](images/lg.png)
-![Mobile-Design](images/sm.png)
 
 ### Links
 
